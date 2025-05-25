@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Портфолио</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="boot.css">
+</head>
+<body>
+<div class = 'sides'>
+    <div class = 'left'>
+        <!--Fun top_left-->
+        <div class = 'left-top basic_block hover2'>
+
+            <!--Time-->
+            <div class = 'also_basic_block time_block hover block_of_fun'>
+                <div class = 'right_left_text'>
+                    <p class = 'color_rgb170 margin0 padding_top15 padding_bottom10'>()&nbsp&nbsp&nbsp&nbsp</p>
+                    <p class = 'color_rgb170 margin0 padding_top15 padding_bottom10 fontMR'>time.now</p>
+                </div>
+                <div id = 'realTime' class = 'back_rgb454545 color_rgb185 fontMR font_to_manage'></div>
+                <div id = 'UTC' class = 'color_rgb140 margin0 padding_top5 font_size17 fontMR font_to_manage'></div>
+            </div>
+
+            <!--Day-->
+            <div class = 'also_basic_block color_rgb185 today_day hover block_of_fun'>
+                <div class = 'right_left_text'>
+                    <p class = 'color_rgb170 margin0 padding_top15 padding_bottom10'>[]&nbsp&nbsp&nbsp&nbsp</p>
+                    <p class = 'color_rgb170 margin0 padding_top15 padding_bottom10 fontMR'>day.bat</p>
+                </div>
+                <div class="date-container back_rgb454545 color_rgb185 fontMR font_to_manage" id = 'currentDate'></div>
+                <div class = 'color_rgb140 margin0 padding_top5 fontMR font_size17 font_to_manage' id="currentYear"></div>
+            </div>
+            <!--Weather-->
+            <div class = 'also_basic_block color_rgb185 weather hover block_of_fun'>
+                <div class = 'right_left_text'>
+                    <p class = 'color_rgb170 margin0 padding_top15 padding_bottom10'>{}&nbsp&nbsp&nbsp&nbsp</p>
+                    <p class = 'color_rgb170 margin0 padding_top15 padding_bottom10 fontMR'>weather.js</p>
+                </div>
+                <div class = 'weather-status font_to_manage back_rgb454545 color_rgb185 fontMR' id="weatherStatus"></div>
+                <div class = 'color_rgb140 margin0 padding_top5 fontMR font_size17' id="weatherTemperature"></div>
+            </div>
+
+        </div>
+        <!--Smth about me mid_left-->
+        <div class = 'basic_block left-middle hover2 margin_link_desc'>
+            <div class = 'direction-column'>
+                <div class = 'direction-row avatar_plus_hello'>
+                    <div class = 'body-image'><img src="img/avatar_without_bg.png" class = 'avatar'></div>
+                    <p class = 'color_rgb185 font-size40 fontMR font_to_manage25' id="greeting">Привет! Я Mikich.</p>
+                </div>
+                <p class = 'about_me color_rgb185 fontMR font_to_manage' id="description">Доброго времени суток, я начинающий русский фулстак (почти) программист Mikich. Мне пока что 15 лет, но я уже знаю некоторые языки и имею несколько проектов. Если есть работенка, то связывайтесь со мной по ссылкам ниже</p>
+                <div class = 'for_boot_links direction-row'>
+                    <button id = 'changeTheme' class = 'color_rgb185 hover link_other back_rgb454545 link fontMR font_size17'>Темная тема</button>
+                    <button id = 'changeLang' class = 'color_rgb185 hover link_other back_rgb454545 link fontMR font_size17'>RU</button>
+                    <button id = 'sendColor' class = 'color_rgb185 hover link_other back_rgb454545 link fontMR display_none'>Test_btn</button>
+                </div>
+            </div>
+        </div>
+
+        <!--Links bot_left-->
+
+        <div class = 'links basic_block left-bottom hover2 margin_link_desc'>
+            <div class = 'flex-column'>
+                <p class = 'padding_bottom30 margintop0 color_rgb185 fontMR' id="link_to_me">Связаться со мной:</p>
+                <div class = 'for_boot_links direction-row'>
+                    <a href='https://discordapp.com/users/881833492290363402/' class = 'color_rgb185 fontMR hover link_first back_rgb454545 link'>Discord</a>
+                    <a href='https://t.me/kirsupport' class = 'color_rgb185 hover link_other back_rgb454545 link fontMR'>Telegram</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class = 'right'>
+        <!--Achiev_top_right-->
+        <a href = "achievnements.html" class = 'text_decor_none display_block real-success basic_block right-top hover2'>
+            <p class = 'color_rgb185 fontMR' id="achievenements">Личные достижения:</p>
+            <div class = 'real_success'>
+                <div class = 'achievenment also_basic_block hover width20'>
+                    <h5 class = 'color_rgb185 fontMR font_size17 margin0_0_10' id='guitarer'>Гитарист</h5>
+                    <p class = 'color_rgb185 margin0 fontMR' id="desc_of_guitarer">Я играю на гитаре уже полтора года</p>
+                </div>
+                <div class = 'achievenment also_basic_block hover width20'>
+                    <h5 class = 'color_rgb185 fontMR font_size17 margin0_0_10' id="technar">Технарь</h5>
+                    <p class = 'color_rgb185 margin0 fontMR' id="desc_of_technar">Отлично знаю физику и математику</p>
+                </div>
+                <div class = 'achievenment also_basic_block hover width20'>
+                    <h5 class = 'color_rgb185 fontMR font_size17 margin0_0_10' id="tennisist">Теннисист</h5>
+                    <p class = 'color_rgb185 margin0 fontMR' id="desc_of_tennisist">Занимаюсь теннисом около двух лет</p>
+                </div>
+            </div>
+        </a>
+        <!--Langs_mid_right-->
+        <a href="skills.html" class = 'text_decor_none display_block languages basic_block right-middle hover2 margin_link_desc'>
+            <p class = 'color_rgb185 fontMR' id="my_languages">Языки, которые я знаю:</p>
+            <div class="multi_language_block">
+                <div class = 'language also_basic_block hover width20'>
+                    <div class = 'direction-row align_items_center'>
+                        <img src = 'img/python_logo.jpg' class = 'logo_lang_icon pad_right_10 display_none'>
+                        <h5 class = 'color_rgb185 fontMR font_size17 margin0_0_5'>Python</h5>
+                    </div> 
+                    <p class = 'color_rgb185 fontMR' id="izuchen">Изучен(а)</p>
+                </div>
+                <div class = 'language also_basic_block hover width20'>
+                    <h5 class = 'color_rgb185 fontMR font_size17 margin0_0_5' id="web_develop">Веб разработка</h5>
+                    <p class = 'color_rgb185 fontMR' id="izuchen1">Изучен(а)</p>
+                </div>
+                <div class = 'language also_basic_block hover width20'>
+                    <h5 class = 'color_rgb185 fontMR font_size17 margin0_0_5'>Java</h5>
+                    <p class = 'color_rgb185 fontMR' id="v_processe">В процессе</p>
+                </div>
+            </div>
+        </a>
+        <!--Projects bot_right-->
+        <a href="skills.html" class = ' display_block text_decor_none projects basic_block right-bottom hover2 margin_link_desc'> <!--Если это читают, то я чисто по приколу называю проекты фреймвораками в классах-->
+            <p class = 'color_rgb185 fontMR' id="my_projects">Мои проекты:</p>
+            <div class = 'multi_project_block'>
+                <div class = 'also_basic_block project hover width20'>
+                    <h5 class = 'color_rgb185 fontMR font_size17 margin0_0_5'>KiritoSelf</h5>
+                    <p class = 'color_rgb185 fontMR' id = 'v_processe1'>В процессе</p>
+                </div>
+                <div class = 'also_basic_block project hover width20'>
+                    <h5 class = 'color_rgb185 fontMR font_size17 margin0_0_5'>EcoSphere</h5>
+                    <p class = 'color_rgb185 fontMR' id = 'v_processe2'>В процессе</p>
+                </div>
+                <div class = 'also_basic_block project hover width20'>
+                    <h5 class = 'color_rgb185 fontMR font_size17 margin0_0_5'>MindMaple</h5>
+                    <p class = 'color_rgb185 fontMR' id = 'v_processe3'>В процессе</p>
+                </div>
+            </div>
+        </a>
+    </div>
+</div>
+<!--Copyright-->
+<footer>
+    <p id = 'copyright' class = 'color_rgb155 margintop5 margin_left_40 fontMR'>Copyright © 2025 Mikich. Все права защищены. Скачивание, копирование и редактирование не допускается.</p>
+</footer>
+<script src="script.js"></script>
+<script src="main.py"></script>
+</body>
+</html>
